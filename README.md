@@ -89,7 +89,3 @@ az group delete --name <your-resource-group> --no-wait --yes
 - This repository includes a `.gitignore` that excludes `.env` and the local virtual environment `labenv/` to avoid committing secrets and local environment files.
 - Keep your `.env` (secrets) out of source control.
 - The lab uses pre-release SDKs; behavior may change with newer SDK versions.
-
-If you'd like, I can also:
-- Add common Python ignores (`__pycache__/`, `*.pyc`, `.vscode/`) to `.gitignore`.
-- Commit the new `README.md` and `.gitignore` into git for you.
