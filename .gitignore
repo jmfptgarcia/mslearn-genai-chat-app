@@ -1,0 +1,5 @@
+# Ignore environment variables file
+.env
+
+# Ignore local virtual environment folder
+labenv/
